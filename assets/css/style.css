@@ -205,14 +205,13 @@ input[type=submit] {
   body { background-color: #333; }
     .container {
       width: 100%;
-      padding: 20px;
     }
 
     .main-section, .sidebar { 
       width: 100%; 
     }
-    .sidebar { 
-      margin-top: 40px; 
+    .auth-image {
+      width: 50%;
     }
 }
 
@@ -224,10 +223,23 @@ input[type=submit] {
     }
 
     .main-section, .sidebar { 
-      width: 100%; 
+      max-width: 768px; 
     }
     .sidebar { 
-      margin-top: 40px; 
+      float: left;
+    }
+    .social {
+      float: left;
+    }
+    .work {
+      position: relative;
+      width: 310px;
+      overflow: auto;
+      float: center;
+      margin: 20px 0 25px;
+    }
+    .auth-image {
+      width: 50%;
     }
 }
 
@@ -235,17 +247,35 @@ input[type=submit] {
   body { background-color: #333; }
     .container {
       width: 100%;
-      padding: 20px;
     }
     .main-section, .sidebar { 
       width: 100%; 
     }
-    .sidebar { 
-      margin-top: 10px;
-      margin-bottom: 20px;
-    }
     #masthead { 
       position: static;
-      margin-bottom: -115px; 
+      margin-bottom: -115px;
+    }
+    nav {
+      float: center;
+      text-align: center;
+      width: 100%;
+      margin: 0 auto
+      padding:;
+    }
+    nav a {
+      padding: 5px 60px 5px 60px;
+    }
+    #logo {
+      width: 100%;
+    }
+    .work {
+      position: relative;
+      width: 540px;
+      overflow: auto;
+      float: center;
+      margin: 20px 0 25px;
+    }
+    .auth-image {
+      width: 100%;
     }
 }
